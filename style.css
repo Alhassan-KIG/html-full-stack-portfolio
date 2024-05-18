@@ -1,0 +1,205 @@
+* {
+  margin: 0px 1px 1px 1px;
+  height: flex;
+  scroll-behavior: smooth;
+}
+
+head body header nav div ul {
+  display: inline-block;
+}
+
+body header nav div ul {
+  background-color: rgb(77, 196, 156);
+  border-bottom: black solid;
+}
+
+name {
+  color: beige;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+a {
+  color: rgb(77, 196, 156);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 100%;
+  border-style: solid;
+  background-color: beige;
+  border-radius: 10px;
+}
+
+.intro,
+span1 {
+  color: beige;
+  align-content: top;
+  padding-left: 10%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  font-weight: 50;
+  font-size: 200%;
+}
+
+.intro p {
+  font-weight: 25;
+  font-size: 75%;
+  padding-right: 10%;
+  margin-bottom: 7%;
+}
+
+.intro p span2 {
+  color: black;
+}
+
+.intro p span3 {
+  border-bottom: solid black;
+}
+
+.aboutme {
+  color: black;
+  text-align: center;
+}
+
+note {
+  font-size: 18px;
+}
+
+ul li {
+  font-size: 18px;
+}
+
+main div {
+  border-bottom: black solid;
+}
+
+#portfolio {
+  margin: 0px 19px 0px 0px;
+  display: grid;
+  background-color: lightpink;
+  text-align: center;
+}
+
+#block {
+  height: 75vh;
+  display: inline;
+  box-sizing: content-box;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repear(2, 1fr);
+  color: black;
+  margin: 0px 18px 0px 0px;
+  padding: 20px;
+  display: grid;
+  border-bottom: black solid;
+  background-color: lightpink;
+}
+
+#block #title1 {
+  display: grid;
+  border: 5px solid brown;
+  font-weight: 20;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin: 30px 50px;
+  background-color: beige;
+  border-radius: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+#block #title2 {
+  display: grid;
+  border: 5px solid brown;
+  font-weight: 20;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin: 30px 50px;
+  background-color: beige;
+  border-radius: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+#block #title3 {
+  display: grid;
+  border: 5px solid brown;
+  font-weight: 20;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin: 30px 50px;
+  background-color: beige;
+  border-radius: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+footer {
+  color: aliceblue;
+  text-align: center;
+  margin: 25px;
+  padding-top: 10px;
+  border-radius: 10px;
+  display: grid;
+  border: solid;
+  background-color: brown;
+}
+
+git {
+  color: brown;
+  text-align: center;
+  border-bottom: solid brown;
+  margin: 0px 50px 70px 50px;
+}
+
+#experience {
+  display: block;
+  text-align: center;
+}
+
+#jobcontent {
+  border-bottom: solid;
+  font-size: 18px;
+}
+
+.container {
+  display: block;
+  background-color: rgb(14, 14, 43);
+  text-align: left;
+  padding: 1%;
+  margin: 0% 0% 0% 0%;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+@media (max-width: 768px) {
+  head body header nav div ul {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    display: block;
+    box-sizing: content-box;
+    margin: 0px;
+  }
+
+  .secondpage {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    display: block;
+    box-sizing: content-box;
+    margin: 0px;
+  }
+
+  #portfolio {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    display: grid;
+    box-sizing: content-box;
+    margin: 0px;
+  }
+
+  #block {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    display: inline;
+    background-color: lightpink;
+  }
+}
